@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-WordsToSearch = ["Dieu", "elle", "la", "il"]
+WordsToSearch = ["Dieu", "elle", "la", "il","avec"]
 WordsToCounts = [0] * len(WordsToSearch)
 
 Words = open("data.txt","r",encoding='Latin1').read().split()
